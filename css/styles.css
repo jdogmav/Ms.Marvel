@@ -201,12 +201,12 @@ audio {
     margin-left: 15px;
 }
 
-/*.map {*/
-/*    position: absolute;*/
-/*    left: 0;*/
-/*    text-align: center;*/
-/*    padding: 8px;*/
-/*}*/
+.map {
+    position: absolute;
+    left: 0;
+    text-align: center;
+    padding: 8px;
+}
 
 .form {
     position: absolute;
