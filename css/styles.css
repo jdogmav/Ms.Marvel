@@ -1,0 +1,214 @@
+body {
+    margin: 0 auto;
+    background-color: #0000ff;/* this is blue */
+    width: 100%; 
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+
+/***************Start of Nav Bar**************/
+
+.nav-bar {
+    height: 70px;
+    width: 100%;
+    background-color: #ffff66; /* This is Yellow */
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-top: 7px;
+}
+
+.nav-list {
+    float: right;
+    margin-right: 20px;
+}
+
+.list-item {
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+    /*display: inline;*/
+    background-color: #0000ff;
+    height: 35px;
+    width: 60px;
+    border: 3px solid #ff0000;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 4px;
+}
+
+.list-item:hover {
+    background-color: purple;
+}
+
+.anchor { 
+   margin-top: 8px;
+   /*margin-left: 8px; */
+   color: #fff;
+   text-decoration: none;
+}
+
+.anchor:hover{
+    color: #000;
+}
+
+/*****************End of Nav Bar*************/
+
+/******************Start of Hero **************/
+.hero {
+    background-image:url('../image/msmarvel.jpg');
+    height: 600px;
+    width: 100%;
+    position: relative;
+    top: 70px;
+}    
+    
+.hero-background {
+    background-color: #ffff66;
+    position: absolute;
+    bottom: 127px;
+    left: 34%;
+    border: 6px solid #0000ff;
+    border-radius: 10px;
+    box-shadow: 8px 8px #ff0000;
+}
+
+.hero-text {
+    color: #ff0000;
+    padding: 10px;
+    font-family: 'Pacifico', cursive;
+}
+
+
+.main {
+    height: 600px;
+    width: 100%;
+}
+
+.box {
+    height: 550px;
+    width: 45%;
+    border: 3px solid #ffff66;
+    float: left;
+    margin: 75px 25px 25px 25px;
+}
+
+.main-p {
+    text-align: justify;
+    padding: 25px;
+}
+
+footer {
+    background-color: #ffff66;
+    height: 70px;
+    clear: both;
+}
+
+.footer-col { 
+    width: 33%;
+    float: left;
+    
+}
+
+.footer-buttons, .social, .copyright {
+    /*margin-top: 18px;*/
+    /*margin-left: 70px;*/
+   display: block;
+   text-align: center;
+   
+}
+
+.footer-buttons {
+    margin-top: 18px;
+}
+
+.input {
+    height: 30px;
+    width: 170px;
+}
+
+.button {
+    height: 30px;
+    width: 50px;
+}
+
+.fab {
+    font-size: 2em;
+    padding: 10px;
+}
+
+.fa-facebook-square {
+    color: #4267b2;
+    /*font-size: 2em;*/
+}
+
+.fa-instagram {
+   color: #231F20;
+}
+    
+    /*********Start of About css************/
+    
+.container {
+    height: 685px;
+    width: 100%;
+    margin-top: 92px;
+}
+
+.column {
+   height: 650px;
+   width: 30%;
+   border: 6px solid #ff0000;
+   float: left;
+   margin-left: 22px;
+}
+
+section p {
+    padding: 10px;
+    text-align: justify;
+}
+
+.col-img {
+    display: block;
+    margin: 0 auto;
+    /*margin-left: 50px;*/
+}
+
+audio {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/****************Start of Contact css*********/
+
+.contact-container {
+    width: 100%;
+    height: 900px;
+    margin-top: 90px;
+    position: relative;
+}
+
+.contact-col {
+    width: 48%;
+    border: 6px solid #ff0000;
+    position: relative;
+    margin-left: 15px;
+}
+
+.map {
+    position: absolute;
+    left: 0;
+    text-align: center;
+    padding: 8px;
+}
+
+.form {
+    position: absolute;
+    left: 50%;
+}
